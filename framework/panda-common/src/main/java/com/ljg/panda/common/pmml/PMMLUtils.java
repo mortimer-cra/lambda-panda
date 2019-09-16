@@ -73,6 +73,7 @@ public class PMMLUtils {
         try {
             PMMLUtil.marshal(pmml, out);
         } catch (JAXBException e) {
+            System.out.println(e.getMessage());
             throw new IOException(e);
         }
     }
