@@ -13,6 +13,8 @@
         <module>framework/panda-common</module>
         <module>framework/kafka-util</module>
         <module>framework/panda-api</module>
+        <module>framework/panda-lambda</module>
+        <module>framework/panda-lambda-serving</module>
     </modules>
 
     <properties>
